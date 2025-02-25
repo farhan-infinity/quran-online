@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // This is the correct JSX setting for React 17+ with TS
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext", // ESNext is typically preferred for modern JavaScript
+    "moduleResolution": "Bundler", // Module resolution strategy for Vite
+    "skipLibCheck": true,
+    "strict": true, // Strict mode for TypeScript
+    "noEmit": true, // No need to emit files (Vite handles this)
+    "isolatedModules": true, // Ensures that each file is treated as an isolated module
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src"]
+}
